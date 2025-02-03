@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: rgb(179, 26, 26);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 60px;
+  height: 6px;
+  background: rgb(179, 26, 26);
+  border-radius: 9px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: rgb(224, 220, 220);
+  border-radius: 6px;
+}
+
+.input .icon {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+
+.forgot {
+  font-size: 18px;
+  padding-right: 248px;
+  margin-top: 25px;
+}
+
+.forgot span {
+  color: rgb(179, 26, 26);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.submit-btn {
+  display: flex;
+  gap: 30px;
+  margin: 48px auto;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  color: white;
+  background-color: rgb(179, 26, 26);
+  border-radius: 50px;
+  height: 45px;
+  width: 220px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gray {
+  background: rgb(224, 220, 220);
+  color: #676767;
+}
